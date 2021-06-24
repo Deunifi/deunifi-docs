@@ -4,7 +4,7 @@ Deunifi is a project in the Ethereum network that integrates the protocols Maker
 
 The idea here is to achieve the same result doing only one transaction with lower costs.
 
-To use the DApp you can access using the any of the following links:
+To use the DApp you can access with any of the following links:
 
 * Official site link: [https://app.deunifi.org](https://app.deunifi.org)
 * IPFS link: [https://ipfs.io/ipfs/QmSW3g4XQxUQQ6N6qPa435FTeFmwVBhk5ucCro6nqjaPrp/](https://ipfs.io/ipfs/QmSW3g4XQxUQQ6N6qPa435FTeFmwVBhk5ucCro6nqjaPrp/)

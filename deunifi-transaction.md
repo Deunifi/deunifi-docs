@@ -1,8 +1,8 @@
 # Manual Investment
 
-## Investment Type
+## Investment Explanation
 
-The type of investments that are simplified by Deunifi, are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults, and with the borrowed DAI are obtained more UNI-V2 LPs tokens, that again are locked in the vault, to get more DAI, and continues until is reached the desired APY/collateralization ratio.
+The type of investments treated by Deunifi DApp are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults. With the borrowed DAI are obtained more UNI-V2 LPs tokens, that again are locked in the vault, to get more DAI, and continues until is reached the desired APY/collateralization ratio.
 
 In this kind of investments, as we are going see in the example below, are required a lot of transactions to achieve them.
 
@@ -12,11 +12,11 @@ Obviously each transaction has a cost, and more transactions means higher costs.
 
 ### Do Investment
 
-Lets show a simplified example with the manual steps to achieve this type of investments.
+Lets show a simplified example following the manual steps to achieve this kind of investments.
 
 Suppose we have 10 ETH and we want to invest in UniswapV2 ETH/USDT liquidity pool.
 
-Let's suppose that the APY for this liquidity pool is 30%.
+Let's suppose that the APY for this liquidity pool is 30% \(the APY can be calculated using the information provided by the [UniswapV2 Analytics](https://v2.info.uniswap.org/home)\).
 
 And let's suppose the ETH price is 2000 USD.
 
@@ -26,7 +26,7 @@ We begin with the first steps:
 
 2\) Approve UniswapV2 to use our USDT token \(this step is required only once for each token to use\).
 
-3\) Add liquidity \(5 ETH and 10000 USDT\) to the UniswapV2 ETH/USDT liquidity pool \(after adding liquidity we receive an amount X of UNIV2ETHUSDT tokens\).
+3\) Add liquidity \(5 ETH and 10000 USDT\) to the UniswapV2 ETH/USDT liquidity pool. After adding liquidity we receive an amount X of UNIV2ETHUSDT tokens.
 
 {% hint style="info" %}
 The X amount of UNIV2ETHUSDT tokens have initially a value of 20k USD. Why? Because we need them to recover the deposited liquidity in UniswapV2 ETH/USDT liquidity pool \(our 5 ETH and 10000 USDT\).
@@ -38,7 +38,7 @@ The X amount of UNIV2ETHUSDT tokens have initially a value of 20k USD. Why? Beca
 >
 > Our gain in a year will be 30% of 20000 USD = 6000 USD.
 
-We are going to continue with the steps and see what happens.
+We are going to continue with the next steps and see what happens.
 
 4\) Create our MakerDAO proxy to manage MakerDAO vaults \(this step is required only once\).
 
