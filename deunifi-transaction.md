@@ -2,7 +2,11 @@
 
 ## Investment Explanation
 
-The type of investments treated by Deunifi DApp are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults. With the borrowed DAI are obtained more UNI-V2 LPs tokens, that again are locked in the vault, to get more DAI, and continues until is reached the desired APY/collateralization ratio.
+The type of investments treated by Deunifi DApp are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults. 
+
+The UNI-V2 collateral is locked in the MakerDAO vault and is borrowed DAI.
+
+With the borrowed DAI are obtained more UNI-V2 LPs tokens, that again are locked in the vault, to get more DAI, and continues until is reached the desired APY/collateralization ratio.
 
 In this kind of investments, as we are going see in the example below, are required a lot of transactions to achieve them.
 

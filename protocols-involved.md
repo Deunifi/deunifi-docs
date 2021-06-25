@@ -4,7 +4,7 @@
 
 UniswapV2 is is a decentralized exchange. 
 
-The investments offered by Deunifi are based in some of the liquidity pools \(LPs\) offered in UniswapV2 protocol.
+The transactions offered by Deunifi are based in some of the liquidity pools \(LPs\) offered in UniswapV2 protocol.
 
 ### How LPs Works
 
