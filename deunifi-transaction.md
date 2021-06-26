@@ -14,7 +14,7 @@ Obviously each transaction has a cost, and more transactions means higher costs.
 
 ## An Example
 
-### Do Investment
+### Manual Steps to Invest
 
 Lets show a simplified example following the manual steps to achieve this kind of investments.
 
@@ -108,7 +108,7 @@ Great, now we have more DAI. The idea here is to swap half of the DAI for ETH, a
 >
 > Well, our gain in a year will be 30% of 20000 USD + \(30% - 4%\) of 20000 USD = 11200 USD. Then our new APY is \(11200/20000\)\*100 = 56%
 
-### Undo Investment
+### Manual Steps To Remove The Investment
 
 Obviously, to undo the investment given in the example, are necessary a similar quantity of transaction that involves the process of: 
 
