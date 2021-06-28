@@ -2,9 +2,9 @@
 
 ## Investment Explanation
 
-The type of investments treated by Deunifi DApp are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults. 
+The investment transactions improved by Deunifi App are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults. 
 
-The UNI-V2 collateral is locked in the MakerDAO vault and is borrowed DAI.
+The manual process involves that the UNI-V2 collateral is locked in the MakerDAO vault and is borrowed DAI.
 
 With the borrowed DAI are obtained more UNI-V2 LPs tokens, that again are locked in the vault, to get more DAI, and continues until is reached the desired APY/collateralization ratio.
 
@@ -16,7 +16,7 @@ Obviously each transaction has a cost, and more transactions means higher costs.
 
 ### Manual Steps to Invest
 
-Lets show a simplified example following the manual steps to achieve this kind of investments.
+Lets show a simplified example. Here are explained the manual steps to achieve this kind of investments.
 
 Suppose we have 10 ETH and we want to invest in UniswapV2 ETH/USDT liquidity pool.
 

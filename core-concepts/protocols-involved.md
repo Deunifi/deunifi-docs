@@ -38,7 +38,7 @@ MakerDAO is a decentralized protocol that provides a system of vaults where is p
 
 Basically a vault pertains to an specific Ethereum account.
 
-If anyone wants to have a vault the first step is to create it.
+If someone wants to have a vault, the first step is to create it.
 
 A vault has a type of collateral \(ETH, UNI-V2, ...\) that we can lock there.
 
@@ -62,13 +62,13 @@ Flash Loans is one of the functionalities offered by AAVE.
 
 The concept is really simple.
 
-Any one can take a loan, for any amount \(for example in DAI\), during an Ethereum transaction execution.
+Anyone can take a flash loan, in some specific token \(for example in DAI\), for any amount, during an Ethereum transaction execution.
 
 The requirement to take this kind of loan, is to payback the same amount to AAVE, plus the corresponding fees \(0.09% of the loan amount\), before the transaction is finished.
 
 If the loan amount + fees is not payed back, then the transaction is reverted.
 
 {% hint style="info" %}
-If you want to understand in more detail how flash loan works, please checkout the [Flash Loans](https://docs.aave.com/faq/flash-loans) section in the AAVE official documentation.
+If you want to understand in more detail how flash loans work, please checkout the [Flash Loans](https://docs.aave.com/faq/flash-loans) section in the AAVE official documentation.
 {% endhint %}
 
