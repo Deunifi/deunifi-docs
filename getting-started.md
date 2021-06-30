@@ -8,7 +8,7 @@ First of all to perform an investment using Deunifi, you must connect using Meta
 At the time of writing we are supporting only Metamask, but we are working to integrate more wallets to our App.
 {% endhint %}
 
-![Connect button](.gitbook/assets/image%20%2811%29.png)
+![Connect button](.gitbook/assets/image%20%2812%29.png)
 
 ## Proxy Creation
 
@@ -26,11 +26,11 @@ The proxy creation it is done only once. Once created, it is used that proxy for
 
 The proxy creation it is very simple. You only need to click the 'CREATE PROXY' button:
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 Then you have to confirm the Metamask's popup with the transaction details:
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 {% hint style="info" %}
 Remember that to perform any transaction in the Ethereum network you are going to need ETH.
@@ -56,7 +56,7 @@ If you already own a MakerDAO vault type supported by the Deunifi App, you can s
 
 Once defined the vault type to be created, simply select it from the drop down box, and click on 'CREATE VAULT' button.
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 Then, confirm the Metamask popup to send the transaction.
 
@@ -64,7 +64,7 @@ Once the transaction is confirmed in the network, after a few seconds, the Vault
 
 A link to checkout your recent created vault in Oasis App, is going to be displayed instead of the 'CREATE VAULT' button. 
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 {% hint style="info" %}
 Please note that you can create more than one vault for same vault type in case you need it.
@@ -156,7 +156,15 @@ Before and after the transaction is confirmed, you can access to it in Etherscan
 
 Additionally, once the transaction is confirmed, after a few seconds, the Vault Status section is going to  change to show its new status.
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
+
+Another tab is going to be displayed next to 'LOCK AND DRAW' tab:
+
+![](.gitbook/assets/image%20%287%29.png)
+
+The WIPE AND FREE operation let you to remove your investment and recover your tokens.
+
+You can learn more about this operation in the [Wipe And Free](getting-started.md#wipe-and-free) section.
 
 ### UNIV2USDCETH-A Using USDC and ETH
 
@@ -168,7 +176,7 @@ Let's suppose we own 5 ETH and 10000 USDC and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 * We set  the 'ETH To Lock' to 10 ETH \(the 'USDC to lock' automatically change to the equivalent 10 ETH value in USDC\).
 * Then we set the USDC amount we want to use from our account: 10000 USDC.
@@ -184,7 +192,7 @@ Once confirmed the approval transaction the APPROVE USDC button is going to disa
 
 Then we click in LOCK AND DRAW and after the transaction is confirmed we get the following Vault Status:
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 ### UNIV2WBTCDAI-A Using UNIV2WBTCDAI
 
@@ -222,7 +230,7 @@ Let's suppose we own 6.1 ETH and 9000 DAI and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](.gitbook/assets/image%20%2821%29.png)
 
 We set  the 'ETH To Lock' to 8 ETH \(the 'WBTC to lock' automatically change to the equivalent 8 ETH value in WBTC\).
 
@@ -259,7 +267,7 @@ To avoid performing a transaction that result in the partial lost of our investm
 
 This parameters are enabled activating the 'Display additional options' button:
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 {% hint style="info" %}
 A reverted transaction means that no modifications are done. Your token balances remains the same, and your vault status remains the same. No modifications are done.
@@ -276,4 +284,6 @@ Reverted transactions also consume gas, and gas is paid with ETH. Then, toleranc
 {% endhint %}
 
 You can play around with this parameters and check how the expected result limits are modified.
+
+## Wipe And Free
 
