@@ -8,7 +8,7 @@ First of all to perform an investment using Deunifi, you must connect using Meta
 At the time of writing we are supporting only Metamask, but we are working to integrate more wallets to our App.
 {% endhint %}
 
-![Connect button](.gitbook/assets/image%20%2812%29.png)
+![Connect button](.gitbook/assets/image%20%2816%29.png)
 
 ## Proxy Creation
 
@@ -26,11 +26,11 @@ The proxy creation it is done only once. Once created, it is used that proxy for
 
 The proxy creation it is very simple. You only need to click the 'CREATE PROXY' button:
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 Then you have to confirm the Metamask's popup with the transaction details:
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 {% hint style="info" %}
 Remember that to perform any transaction in the Ethereum network you are going to need ETH.
@@ -56,7 +56,7 @@ If you already own a MakerDAO vault type supported by the Deunifi App, you can s
 
 Once defined the vault type to be created, simply select it from the drop down box, and click on 'CREATE VAULT' button.
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 Then, confirm the Metamask popup to send the transaction.
 
@@ -64,7 +64,7 @@ Once the transaction is confirmed in the network, after a few seconds, the Vault
 
 A link to checkout your recent created vault in Oasis App, is going to be displayed instead of the 'CREATE VAULT' button. 
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 {% hint style="info" %}
 Please note that you can create more than one vault for same vault type in case you need it.
@@ -74,29 +74,17 @@ Please note that you can create more than one vault for same vault type in case 
 
 Lock And Draw is the operation that let us do an investment in only one operation.
 
-A lock Lock And Draw operation generally follow this steps. 
-
-1. Get a flash loan in DAI.
-2. Use this DAI loan, together with ETH/tokens from our account, to invest in UniswapV2 liquidity pool and get UNI-V2 from it.
-3. **Lock** this UNI-V2 tokens in our vault and **draw** DAI to payback the flash loan and the corresponding fees.
-
 We only need to specify how much collateral we want to lock and how much debt we want to get.
 
-As we mention in one of the steps above, we can use ETH/tokens from our account, so we can have different to complete a Lock And Draw transaction.
+We can use ETH or tokens from our account.
 
-The tokens available to use from our account in the transaction are:
+The tokens available to use are:
 
-* Both tokens that compose the UniswapV2 pair liquidity pool.
+* Both tokens that compose the UniswapV2 pair liquidity pool where we are going to invest.
 * The UNI-V2 token corresponding to the liquidity pool.
 * DAI token.
 
-{% hint style="info" %}
-In case one of the tokens of the liquidity pool it is ETH, it is possible to use WETH instead.
-{% endhint %}
-
-It is possible to do the combination required depending on the assets we already own.
-
-In the following sections we are going to show some examples using different combinations of tokens and different vault types.
+In the following sections we are going to show some examples to understand better how to do an investment.
 
 ### UNIV2DAIETH-A Using ETH
 
@@ -156,11 +144,11 @@ Before and after the transaction is confirmed, you can access to it in Etherscan
 
 Additionally, once the transaction is confirmed, after a few seconds, the Vault Status section is going to  change to show its new status.
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2822%29.png)
 
 Another tab is going to be displayed next to 'LOCK AND DRAW' tab:
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 The WIPE AND FREE operation let you to remove your investment and recover your tokens.
 
@@ -176,7 +164,7 @@ Let's suppose we own 5 ETH and 10000 USDC and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 * We set  the 'ETH To Lock' to 10 ETH \(the 'USDC to lock' automatically change to the equivalent 10 ETH value in USDC\).
 * Then we set the USDC amount we want to use from our account: 10000 USDC.
@@ -192,7 +180,7 @@ Once confirmed the approval transaction the APPROVE USDC button is going to disa
 
 Then we click in LOCK AND DRAW and after the transaction is confirmed we get the following Vault Status:
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 ### UNIV2WBTCDAI-A Using UNIV2WBTCDAI
 
@@ -230,7 +218,7 @@ Let's suppose we own 6.1 ETH and 9000 DAI and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
 We set  the 'ETH To Lock' to 8 ETH \(the 'WBTC to lock' automatically change to the equivalent 8 ETH value in WBTC\).
 
@@ -246,9 +234,33 @@ Once confirmed the approval transaction the APPROVE DAI button is going to disap
 
 Then we click in LOCK AND DRAW and wait for the transaction to be confirmed.
 
+### UNIV2DAIUSD-A: x40 Investment
+
+In this example we are going to invest in a UNIV2DAIUSDC-A vault.
+
+This is a special case because we are going to use only 1000 USDC from our account to create a 40000 USD investment.
+
+To achieve this:
+
+![](.gitbook/assets/image%20%2815%29.png)
+
+We set  the 'USDC To Lock' to 20000 USDC \(the 'DAI to lock' automatically change to the equivalent value in DAI\).
+
+Then we set the 'USDC to use' amount we want to use from our account: 1000 USDC.
+
+We can verify that in the Transaction Summary section that the Collateral to lock has a value of 39852 USD \(near x40 the value we are using from our account\).
+
+But, we have an error. The Expected Collateralization Ratio it is above the Liquidation Ratio \(102%\), but the Min. Expected Collateralization Ratio is below 102%.
+
+To solve this, we are going to change the [Slippage Tolerance](getting-started.md#tolerance-and-deadline) from 1% to 0.1%. And we are doing this here because we are treating only with stable coins, so there risk that the conditions are changed, and the transaction be reverted, are very low.
+
+![](.gitbook/assets/image%20%287%29.png)
+
+Then we click in LOCK AND DRAW and wait for the transaction to be confirmed.
+
 ## Tolerance and Deadline
 
-If we compare the final Vault Status with the status before performing the transaction, we are going to realize that there are some little differences.
+If we compare the final Vault Status showed in the [first example](getting-started.md#univ-2-daieth-a-using-eth), with the status before performing the transaction, we are going to realize that there are some little differences.
 
 This is normal, because the transactions in blockchain are not written immediately, so, some conditions can change between the moment that it is sent the transaction, and the moment that it is confirmed the transaction \(the difference between this two moments could be seconds, minutes, hours, or even days\).
 
@@ -267,7 +279,7 @@ To avoid performing a transaction that result in the partial lost of our investm
 
 This parameters are enabled activating the 'Display additional options' button:
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 {% hint style="info" %}
 A reverted transaction means that no modifications are done. Your token balances remains the same, and your vault status remains the same. No modifications are done.
@@ -286,4 +298,6 @@ Reverted transactions also consume gas, and gas is paid with ETH. Then, toleranc
 You can play around with this parameters and check how the expected result limits are modified.
 
 ## Wipe And Free
+
+
 
