@@ -8,7 +8,7 @@ First of all to perform an investment using Deunifi, you must connect using Meta
 At the time of writing we are supporting only Metamask, but we are working to integrate more wallets to our App.
 {% endhint %}
 
-![Connect button](.gitbook/assets/image%20%2816%29.png)
+![Connect button](.gitbook/assets/image%20%2819%29.png)
 
 ## Proxy Creation
 
@@ -26,11 +26,11 @@ The proxy creation it is done only once. Once created, it is used that proxy for
 
 The proxy creation it is very simple. You only need to click the 'CREATE PROXY' button:
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2822%29.png)
 
 Then you have to confirm the Metamask's popup with the transaction details:
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="info" %}
 Remember that to perform any transaction in the Ethereum network you are going to need ETH.
@@ -56,7 +56,7 @@ If you already own a MakerDAO vault type supported by the Deunifi App, you can s
 
 Once defined the vault type to be created, simply select it from the drop down box, and click on 'CREATE VAULT' button.
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 Then, confirm the Metamask popup to send the transaction.
 
@@ -64,7 +64,7 @@ Once the transaction is confirmed in the network, after a few seconds, the Vault
 
 A link to checkout your recent created vault in Oasis App, is going to be displayed instead of the 'CREATE VAULT' button. 
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 {% hint style="info" %}
 Please note that you can create more than one vault for same vault type in case you need it.
@@ -86,7 +86,7 @@ The tokens available to use are:
 
 In the following sections we are going to show some examples to understand better how to do an investment.
 
-### UNIV2DAIETH-A Using ETH
+### Using Only ETH
 
 In this example we are going to invest in a UNIV2DAIETH-A vault using only ETH.
 
@@ -144,17 +144,17 @@ Before and after the transaction is confirmed, you can access to it in Etherscan
 
 Additionally, once the transaction is confirmed, after a few seconds, the Vault Status section is going to  change to show its new status.
 
-![](.gitbook/assets/image%20%2822%29.png)
+![](.gitbook/assets/image%20%2825%29.png)
 
 Another tab is going to be displayed next to 'LOCK AND DRAW' tab:
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 The WIPE AND FREE operation let you to remove your investment and recover your tokens.
 
 You can learn more about this operation in the [Wipe And Free](getting-started.md#wipe-and-free) section.
 
-### UNIV2USDCETH-A Using USDC and ETH
+### Using Both Pool Tokens
 
 In this example we are going to invest in a UNIV2USDCETH-A vault using 50% USDC and 50% ETH.
 
@@ -164,7 +164,7 @@ Let's suppose we own 5 ETH and 10000 USDC and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 * We set  the 'ETH To Lock' to 10 ETH \(the 'USDC to lock' automatically change to the equivalent 10 ETH value in USDC\).
 * Then we set the USDC amount we want to use from our account: 10000 USDC.
@@ -180,9 +180,9 @@ Once confirmed the approval transaction the APPROVE USDC button is going to disa
 
 Then we click in LOCK AND DRAW and after the transaction is confirmed we get the following Vault Status:
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](.gitbook/assets/image%20%2823%29.png)
 
-### UNIV2WBTCDAI-A Using UNIV2WBTCDAI
+### Using UNI-V2 Pool Token
 
 In this example we are going to invest in a UNIV2WBTCETH-A vault using UNIV2WBTCDAI token.
 
@@ -208,7 +208,7 @@ Once confirmed the approval transaction the APPROVE UNI-V2 button is going to di
 
 Then we click in LOCK AND DRAW and wait for the transaction to be confirmed.
 
-### UNIV2WBTCETH-A Using WBTC and ETH
+### Using One Pool Token And DAI
 
 In this example we are going to invest in a UNIV2WBTCETH-A vault using ETH and DAI.
 
@@ -218,7 +218,7 @@ Let's suppose we own 6.1 ETH and 9000 DAI and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2826%29.png)
+![](.gitbook/assets/image%20%2829%29.png)
 
 We set  the 'ETH To Lock' to 8 ETH \(the 'WBTC to lock' automatically change to the equivalent 8 ETH value in WBTC\).
 
@@ -234,7 +234,7 @@ Once confirmed the approval transaction the APPROVE DAI button is going to disap
 
 Then we click in LOCK AND DRAW and wait for the transaction to be confirmed.
 
-### UNIV2DAIUSD-A: x40 Investment
+### x40 Leverage Investment
 
 In this example we are going to invest in a UNIV2DAIUSDC-A vault.
 
@@ -242,7 +242,7 @@ This is a special case because we are going to use only 1000 USDC from our accou
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 We set  the 'USDC To Lock' to 20000 USDC \(the 'DAI to lock' automatically change to the equivalent value in DAI\).
 
@@ -279,7 +279,7 @@ To avoid performing a transaction that result in the partial lost of our investm
 
 This parameters are enabled activating the 'Display additional options' button:
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2821%29.png)
 
 {% hint style="info" %}
 A reverted transaction means that no modifications are done. Your token balances remains the same, and your vault status remains the same. No modifications are done.
@@ -298,6 +298,111 @@ Reverted transactions also consume gas, and gas is paid with ETH. Then, toleranc
 You can play around with this parameters and check how the expected result limits are modified.
 
 ## Wipe And Free
+
+Wipe And Free is the operation that let us remove our investment made with a Lock And Draw transaction.
+
+{% hint style="info" %}
+If you already have a leveraged UniswapV2 investment collateralized in a Maker DAO vault, then you can use this transaction to remove your collateral and pay your debt in only one transaction.
+{% endhint %}
+
+{% hint style="info" %}
+We can remove an integral amount of our investment, or we can remove only a portion.
+{% endhint %}
+
+We only need to specify:
+
+* How much debt we want to payback
+  * How much of this debt is going to be paid swapping on of the pair tokens of the liquidity pool.
+  * How much of this debt is going to be paid swapping the other token of the liquidity pool.
+  * How much of this debt is going to be paid with DAI from our account \(optionally\).
+* How much collateral we are going to release
+  * How much of this released collateral we want to remove from the liquidity pool and receive the corresponding amounts in both tokens of the liquidity pool.
+
+In the following sections we are going to show some examples to understand better how to do a Wipe And Free operation.
+
+### Both Pool Tokens \(50%/50%\)
+
+In this example we are going to work with a UNIV2USDCETH-A vault, with collateral locked for a value of 44020 USD, and a 23743 DAI debt.
+
+The collateralization ratio is around 185%.
+
+The ETH price is around 1998 USD/ETH
+
+We are going to release all our collateral, pay our debt and receive the invested value 50% in USDC and 50% in ETH.
+
+The transaction to perform will be the following:
+
+![](.gitbook/assets/image%20%289%29.png)
+
+Let's explain how was completed values above.
+
+* Debt to payback:
+  * We set the value of our debt.
+  * To set the 100% of our debt value, it can be used the MAX button.
+* Distribution to cober debt+fees:
+  * USDC to use \(in DAI\):
+    * Here we are going to define how much DAI is going to be paid using USDC.
+  * ETH to use \(in DAI\):
+    * Here we are going to define how much DAI is going to be paid using ETH.
+  * To pay 50% of the debt with USDC and the other 50% with ETH, it can be used the 50%/50% button. 
+* Collateral to free:
+  * The amount of collateral we are going to free.
+  * To free all the collateral it can be used the MAX button.
+* Collateral to swap:
+  * The amount of collateral we are going to swap from UNI-V2 to ETH and USDC.
+  * The ETH and USDC obtained is used to pay the debt, and the remaining tokens are transfered to your account.
+  * To swap all the collateral it can be used the MAX button.
+
+In the Transaction Summary we can check that:
+
+* We are removing all the collateral and paying 100% of the debt.
+* We are going to receive a value in USDC, and a value in ETH.
+* The fees are displayed too and are already considered in the expected result.
+
+To proceed we simply click the WIPE AND FREE button.
+
+Once confirmed the transaction, the corresponding amounts of USDC and ETH are going to be present in our account.
+
+### 100% UNI-V2 Pool Token
+
+For the same example in the [previous section](getting-started.md#both-pool-tokens-50-50), here we are going to obtain the UNI-V2 liquidity pool token.
+
+We are going to cancel our debt, but will continue with the investment in USDC-ETH liquidity pool without leverage.
+
+To achieve this we need to do practically the same, but with tiny differences.
+
+![](.gitbook/assets/image%20%2816%29.png)
+
+The differences are:
+
+* Collateral to swap:
+  * Instead of clicking in the MAX button, we click in the MIN button. 
+  * This is because we want to swap UNI-V2 amount only to pay our debt.
+* Transaction Summary:
+  * Amount of USDC to receive:
+    * The remaining of USDC after paying the debt \(in this case a very low value\)
+  * Amount of ETH to receive:
+    * The remaining of ETH after paying the debt \(in this case a very low value\)
+  * Amount of UNI-V2 to receive:
+    * The amount of UNI-V2 USDC-ETH liquidity pool token to receive.
+
+{% hint style="info" %}
+Because we are working with a tolerance, the swapped UNI-V2 is a little bit higher.
+
+This is to be able to cover any error \(between the limits\) caused by conditions changed in the blockchain ecosystem.
+
+That is why it is expected to receive an amount in USDC and an amount in ETH.
+{% endhint %}
+
+To proceed we simply click the WIPE AND FREE button.
+
+Once confirmed the transaction, the corresponding amounts of USDC, ETH and UNI-V2 are going to be present in our account.
+
+### Max Possible In One Pool Token
+
+### Partial Wipe And Free
+
+
 
 
 
