@@ -17,7 +17,7 @@ To know other benefits of investing using Deunifi, please check out [Deunifi Ben
 To use the App you can access with any of the following links:
 
 * Official site link: [https://app.deunifi.org](https://app.deunifi.org)
-* IPFS link: [https://ipfs.io/ipfs/QmX44hE1g6ASZboe6378qAKA2yF3gNfaJMzk2ahscXTuQi/](https://ipfs.io/ipfs/QmX44hE1g6ASZboe6378qAKA2yF3gNfaJMzk2ahscXTuQi/)
+* IPFS link: [https://ipfs.io/ipfs/QmWUpZYYwet73F9uTQ4dqbR5sdpFuz32mePXWiSwbYUAqk/](https://ipfs.io/ipfs/QmWUpZYYwet73F9uTQ4dqbR5sdpFuz32mePXWiSwbYUAqk/)
 
 
 
