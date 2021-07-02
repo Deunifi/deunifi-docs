@@ -2,7 +2,7 @@
 
 ## Investment Explanation
 
-The investment transactions improved by Deunifi App are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults. 
+The investment transactions performed in Deunifi App, are those that use the UNI-V2 LPs tokens as collateral in MakerDAO vaults. 
 
 The manual process involves that the UNI-V2 collateral is locked in the MakerDAO vault and is borrowed DAI.
 
@@ -12,19 +12,17 @@ In this kind of investments, as we are going see in the example below, are requi
 
 Obviously each transaction has a cost, and more transactions means higher costs.
 
-## An Example
-
-### Manual Steps to Invest
+## Manual Steps to Invest
 
 Lets show a simplified example. Here are explained the manual steps to achieve this kind of investments.
 
 Suppose we have 10 ETH and we want to invest in UniswapV2 ETH/USDT liquidity pool.
 
-Let's suppose that the APY for this liquidity pool is 30% \(the APY can be calculated using the information provided by the [UniswapV2 Analytics](https://v2.info.uniswap.org/home)\).
+Let's suppose that the APY for this liquidity pool is 30% \(the APY generally is variable, and can be calculated using the information provided by the [UniswapV2 Analytics](https://v2.info.uniswap.org/home)\).
 
 And let's suppose the ETH price is 2000 USD.
 
-We begin with the first steps:
+The first steps are:
 
 1\) Swap 5 ETH for 10000 USDT \(now we have 5 ETH and 10000 USDT\).
 
@@ -108,7 +106,7 @@ Great, now we have more DAI. The idea here is to swap half of the DAI for ETH, a
 >
 > Well, our gain in a year will be 30% of 20000 USD + \(30% - 4%\) of 20000 USD = 11200 USD. Then our new APY is \(11200/20000\)\*100 = 56%
 
-### Manual Steps To Remove The Investment
+## Manual Steps To Remove The Investment
 
 Obviously, to undo the investment given in the example, are necessary a similar quantity of transaction that involves the process of: 
 
@@ -120,21 +118,23 @@ Obviously, to undo the investment given in the example, are necessary a similar 
 
 This steps are repeated until the debt is completely paid.
 
-### Analysis
+## Analysis
 
 As we can see, are required a lot of transactions to achieve this kind of investments.
 
 Obviously each transaction has a cost, and more transactions means higher costs.
 
-In this example we only do 3 iterations to achieve the final results, but there are other vault types that permits to have lower collateralization ratio, and this means more iterations.
+In this example we only do 3 iterations to achieve the final result, but there are other vault types that permits to have lower collateralization ratio, and this means more iterations.
 
 {% hint style="info" %}
 At the time of writing, when doing an investment in a UNIV2DAIUSDC-A vault, it is possible to use only 1k USD to have an investment of 40k USD. This improves a lot the expected APY.
 
-The number of iterations in this case is more than 40 \(in our example above were only 3\). This is practically impossible to achieve doing manual steps.
+The number of transactions in this case is more than 80. This is practically impossible to achieve doing manual steps.
 {% endhint %}
 
 ## Solution
 
-To solve the problem of multiple transactions and high costs, Deunifi provides a solution to achieve the same results using one and only one transaction. All of this with a predictable final state after the transaction is executed.
+To solve the problem of multiple transactions and high costs, Deunifi provides a solution to achieve the same result using one and only one transaction.
+
+All of this with a predictable final state.
 

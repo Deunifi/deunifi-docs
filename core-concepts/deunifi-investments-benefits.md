@@ -1,4 +1,4 @@
-# Deunifi Investments Benefits
+# Deunifi Benefits
 
 ## Impermanent Loss Mitigation
 
@@ -40,7 +40,7 @@ Basically, using an UNIV2ETHDAI-A vault with a collateralization ratio of 200%, 
 We are leveraging the returned fees.
 {% endhint %}
 
-We can use lower collateralization ratios and achieve interesting results.
+We can use lower collateralization ratios \(higher debt\) and achieve interesting results.
 
 For example, at the time of writing this documentation, the UNIV2DAIUSDC-A has a liquidation ratio of 102%, and auctions are disabled for this vault type.
 
@@ -59,4 +59,14 @@ In case the ETH price increases, we a gain proportionally to a 50% of our initia
 But in case we want to invest in UniswapV2 liquidity pool like USDC/ETH, and, at the same time, we are confident that the ETH price will increase, then we can an investment on a UNIV2USDCETH-A vault with a collateralization ratio of, for example, 200%.
 
 In case the ETH price increases, we have a return proportionally to a 100% of our initial investment \(without considering impermanent loss\) and additionally we earn fees from the liquidity pool.
+
+## Security
+
+To reduce at minimum risks regarding security, Deunifi was build to not have to store any asset, and to not need any special authorization.
+
+All the assets of your investment are stored in MakerDAO vaults. In fact, once it is performed a transaction with Deunifi, you can immediately view the result using the MakerDAO Oasis App.
+
+Additionally, all the token approvals are made only for your own proxy.
+
+All the operations performed are done using your proxy.
 
