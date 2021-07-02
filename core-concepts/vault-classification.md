@@ -30,7 +30,7 @@ Generally the risks are higher with this kind of vaults.
 
 The main characteristics of this kind of vaults are:
 
-* In case of tokens price increasing, impermanent loss are mitigated and value could be conserved \(for more information please checkout 'Deunifi Investments Benefits'\).
+* In case of tokens price increasing, impermanent loss are mitigated and value could be conserved \(for more information please checkout [Deunifi Investments Benefits](deunifi-investments-benefits.md)\).
 * The APY for this vaults are generally high.
 * Collateralization ratio:
   * A collateralization ratio of 200% means that you are investing +100% of your initial investment:

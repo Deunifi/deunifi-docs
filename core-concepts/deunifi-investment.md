@@ -13,11 +13,11 @@ That's it.
 
 ## An Example
 
-Lets do the same investment that was made in the previous section.
+Lets do the same investment that was made in the [Manual Investment](deunifi-transaction.md) section.
 
 ### Investing
 
-In the example of the previous section, we suppose that we have initially 10 ETH, and that we want to invest in UniswapV2 ETH/USDT liquidity pool.
+In the example, we supposed that we have initially 10 ETH, and that we want to invest in UniswapV2 ETH/USDT liquidity pool.
 
 We supposed that the APY for this liquidity pool is 30%. And supposed that ETH price is 2000 USD.
 
@@ -74,17 +74,7 @@ In our example the fees for the investment transaction would be:
 
 So the fees total amount would be 19 DAI.
 
-To remove the example's investment the fees total amount would be 19 DAI too.
+To remove the investment for this example, the fees total amount would be 19 DAI too.
 
 This fees are displayed in the transaction summary for each transaction to be performed in Deunifi App. 
-
-## Security
-
-To reduce at minimum risks regarding security, Deunifi was build to not have to store any asset, and to not need any special authorization.
-
-All the assets of your investment are stored in MakerDAO vaults. In fact, once it is performed a transaction with Deunifi, you can immediately view the result using the MakerDAO Oasis App.
-
-Additionally, all the token approvals are made only for your own proxy.
-
-All the operations performed are done using your proxy.
 
