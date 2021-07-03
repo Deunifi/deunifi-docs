@@ -6,7 +6,7 @@
 
 To understand one of the main benefits of UNI-V2 Collateralized Investments, it is important to understand the concept of Impermanent Loss in UNI-V2 investments.
 
-To put it in only few word:
+To put it in few word:
 
 > In essence, impermanent loss is a temporary loss of funds occurring when providing liquidity. It’s very often explained as a difference between holding an asset versus providing liquidity in that asset. Impermanent loss is usually observed in standard liquidity pools where the liquidity provider \(LP\) has to provide both assets in a correct ratio, and one of the assets is volatile in relation to the other, for example, in a Uniswap DAI/ETH 50/50 liquidity pool.
 >
