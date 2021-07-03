@@ -65,7 +65,7 @@ Please be advise, that sometime the service is not working as expected, and have
 
 ## Connecting To Kovan
 
-First of all, it is a good practice to use using different accounts between different networks, to avoid performing transactions in Mainnet, believing that you are connected to a test network.
+First of all, it is a good practice to use different accounts between different networks, to avoid performing transactions in Mainnet, believing that you are connected to a test network.
 
 To create another account in Metamask simple open Metamask, select the menu button, and then the create account option:
 
