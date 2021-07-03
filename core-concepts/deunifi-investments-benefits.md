@@ -22,7 +22,7 @@ This is because, for example, it is possible to duplicate our investment.
 
 In an UNIV2DAIETH investment, initially we have 50% ETH and 50% DAI. If the price of ETH increases, then we have impermanent loss.
 
-If we duplicate our investment using a UNIV2DAIETH-A vault with a collateralization ratio of 200%, that mean we have initially 100% ETH and 100% DAI of our original investment, so in case ETH price increases, then the impermanent loss will be much lower.
+If we duplicate our investment using a UNIV2DAIETH-A vault with a collateralization ratio of 200%, that means we have initially 100% ETH and 100% DAI of our original investment, so in case ETH price increases, then the impermanent loss will be considerably much lower.
 
 ## UNI-V2 Leverage
 
