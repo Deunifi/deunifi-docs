@@ -28,7 +28,7 @@ If we duplicate our investment using a UNIV2DAIETH-A vault with a collateralizat
 
 ### Leverage on Fees
 
-Investing in UniswapV2 liquidity pools generate a return fee that is proportional to the invested liquidity.
+Investing in UniswapV2 liquidity pools generates a return fee that it is proportional to the invested liquidity.
 
 If we provide a 1% of the total liquidity in a liquidity pool, and let's suppose that the fees from 1 day are 1000 USD in that pool, then we earn 10 USD that day, right?
 
@@ -54,19 +54,17 @@ Please note that always it is important to consider the vault's stability fee ov
 
 The problem of investing on an UniswapV2 liquidity pool like USDC/ETH for example is that we initially have 50% ETH and 50% USDC of our initial investment.
 
-In case the ETH price increases, we a gain proportionally to a 50% of our initial investment \(to simplify we are not considering impermanent loss\).
+In case the ETH price increases, we only have a gain proportionally to a 50% of our initial investment \(to simplify we are not considering impermanent loss\).
 
-But in case we want to invest in UniswapV2 liquidity pool like USDC/ETH, and, at the same time, we are confident that the ETH price will increase, then we can an investment on a UNIV2USDCETH-A vault with a collateralization ratio of, for example, 200%.
-
-In case the ETH price increases, we have a return proportionally to a 100% of our initial investment \(without considering impermanent loss\) and additionally we earn fees from the liquidity pool.
+But if we invest on a UNIV2USDCETH-A vault with a collateralization ratio of, for example 200%, and in case the ETH price increases, we have a return proportionally to a 100% of our initial investment \(without considering impermanent loss\) and additionally we earn fees from the liquidity pool.
 
 ## Security
 
 To reduce at minimum risks regarding security, Deunifi was build to not have to store any asset, and to not need any special authorization.
 
-All the assets of your investment are stored in MakerDAO vaults. In fact, once it is performed a transaction with Deunifi, you can immediately view the result using the MakerDAO Oasis App.
+All the assets of your investments are stored in MakerDAO vaults. In fact, once it is performed a transaction with Deunifi, you can immediately view the results using the MakerDAO Oasis App.
 
-Additionally, all the token approvals are made only for your own proxy.
+Additionally, all the token approvals are made only for your own MakerDAO proxy.
 
-All the operations performed are done using your proxy.
+All the operations performed are done using your MakerDAO proxy.
 
