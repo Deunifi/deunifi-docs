@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Getting Started](getting-started.md)
+* [Test Network](test-network.md)
 * [Core Concepts](core-concepts/README.md)
   * [Protocols Involved](core-concepts/protocols-involved.md)
   * [Manual Investment](core-concepts/deunifi-transaction.md)
