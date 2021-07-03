@@ -12,7 +12,7 @@ Deunifi does not offer its own assets, instead, any investment done with Deunifi
 Additionally, as a security measure, Deunifi was designed to not be able to perform operations with your vaults and your tokens. This way, your investments are yours and only yours.
 {% endhint %}
 
-To know other benefits of investing using Deunifi, please check out [Deunifi Benefits](core-concepts/deunifi-investments-benefits.md) section.
+To know the benefits of investing using Deunifi, please check out [Deunifi Benefits](core-concepts/deunifi-investments-benefits.md) section.
 
 To use the App you can access with any of the following links:
 
