@@ -8,7 +8,7 @@ First of all, to perform an investment using Deunifi, you must connect to the Ap
 At the time of writing we are supporting only Metamask, but we are working to support more wallets.
 {% endhint %}
 
-![Connect button](.gitbook/assets/image%20%2819%29.png)
+![Connect button](.gitbook/assets/image%20%2821%29.png)
 
 ## Proxy Creation
 
@@ -26,11 +26,11 @@ The proxy creation it is done only once. Once created, it is used that proxy for
 
 The proxy creation it is very simple. You only need to click the 'CREATE PROXY' button:
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](.gitbook/assets/image%20%2825%29.png)
 
 Then you have to confirm the Metamask's popup with the transaction details:
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](.gitbook/assets/image%20%2822%29.png)
 
 {% hint style="info" %}
 Remember that to perform any transaction in the Ethereum network you are going to need ETH.
@@ -56,11 +56,11 @@ If you already own a MakerDAO vault supported by the Deunifi App, you can skip t
 
 The supported vault types at the time of writing are the following:
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](.gitbook/assets/image%20%2830%29.png)
 
 Once defined the vault type to be created, simply select it from the drop down box, and click on 'CREATE VAULT' button.
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 Then, confirm the Metamask popup to send the transaction.
 
@@ -148,7 +148,7 @@ Finally, to perform the transaction, it is needed to click on LOCK AND DRAW butt
 
 Once the transaction is confirmed, after a few seconds, the Vault Status section is going to change to show the resulting values.
 
-![](.gitbook/assets/image%20%2828%29.png)
+![](.gitbook/assets/image%20%2832%29.png)
 
 Another tab is going to be displayed next to 'LOCK AND DRAW' tab:
 
@@ -168,7 +168,7 @@ Let's suppose we own 5 ETH and 10000 USDC and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 * We set  the 'ETH To Lock' to 10 ETH \(the 'USDC to lock' automatically change to the equivalent 10 ETH value in USDC\).
 * Then we set the USDC amount we want to use from our account: 10000 USDC.
@@ -184,7 +184,7 @@ Once confirmed the approval transaction, the APPROVE USDC button is going to dis
 
 Then we click the LOCK AND DRAW button, and after the transaction is confirmed, we get the following Vault Status:
 
-![](.gitbook/assets/image%20%2824%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 ### Using UNI-V2 Pool Token
 
@@ -222,7 +222,7 @@ Let's suppose we own 6.1 ETH and 9000 DAI and want to have an investment in UNIV
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2833%29.png)
+![](.gitbook/assets/image%20%2837%29.png)
 
 We set  the 'ETH To Lock' to 8 ETH \(the 'WBTC to lock' automatically change to the equivalent 8 ETH value in WBTC\).
 
@@ -246,7 +246,7 @@ This is a special case because we are going to use only 1000 USDC from our accou
 
 To achieve this:
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 We set  the 'USDC To Lock' to 20000 USDC \(the 'DAI to lock' automatically change to the equivalent value in DAI\).
 
@@ -285,7 +285,7 @@ To avoid performing a transaction that results in the partial lost of our invest
 
 This parameters are enabled activating the 'Display additional options' button:
 
-![](.gitbook/assets/image%20%2822%29.png)
+![](.gitbook/assets/image%20%2824%29.png)
 
 {% hint style="info" %}
 A reverted transaction means that no modifications are done. Your token balances remains the same, and your vault status remains the same. No modifications are done.
@@ -377,7 +377,7 @@ We are going to cancel our debt, but continuing the investment in USDC-ETH liqui
 
 To achieve this we need to do practically the same, but with tiny differences.
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 The differences are:
 
@@ -410,7 +410,7 @@ For the same example in the [previous sections](getting-started.md#use-both-pool
 
 To achieve this we need to do the following.
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](.gitbook/assets/image%20%2823%29.png)
 
 The difference with the other examples is that instead of clicking the 50%/50% button, we clicked the 100% ETH button \(we want to pay as much as possible wit ETH, to keep with us more USDC\).
 
@@ -420,7 +420,7 @@ Then we need to pay an amount of the DAI debt+fees with a portion of USDC.
 
 After trying some values, we achieve a valid combination:
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image%20%2833%29.png)
 
 We have modified the 'USDC to use \(in DAI\)' edit box until we have found a valid combination to pay the DAI debt+fees.
 
@@ -442,7 +442,7 @@ For the same example in the [previous section](getting-started.md#both-pool-toke
 
 To do this:
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](.gitbook/assets/image%20%2828%29.png)
 
 Here we set an arbitrary amount in the 'Debt to payback' edit box, then click the 50%/50% button, and finally we click in both MIN buttons for 'Collateral to free' and 'Collateral to swap'.
 
