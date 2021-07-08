@@ -64,17 +64,17 @@ Again, this is not only a lot easier, the results are predictable, and the inves
 
 The involved fees are the following:
 
-* **AAVE Flash Loan Fee:** This is the fee required to get the Flash Loan to achieve the investment transaction in only one operation. At the time of writing this documentation, the fee is 0,09 % of the Flash Loan amount \(this amount generally is the debt to generate in our vault or the debt to be payed back\).
+* **Flash Loan Fee:** This is the fee required to get the Flash Loan to achieve the investment transaction in only one operation. At the time of writing this documentation, the fee is 0,05 % of the Flash Loan amount \(this amount generally is the debt to generate in our vault or the debt to be payed back\).
 * **Deunifi Service Fee:** This fee is to support the development team that created and maintains Deunifi App. At the time of writing the fee is 0,1 % of the debt generated or payed back.
 
 In our example the fees for the investment transaction would be:
 
-* **AAVE Flash Loan Fee:** 10000 DAI \* 0,09/100 = 9 DAI
+* **Flash Loan Fee:** 10000 DAI \* 0,05/100 = 5 DAI
 * **Deunifi Service Fee:** 10000 DAI \* 0,1/100 = 10 DAI
 
-So the fees total amount would be 19 DAI.
+So the fees total amount would be 15 DAI.
 
-To remove the investment for this example, the fees total amount would be 19 DAI too.
+To remove the investment for this example, the fees total amount would be 15 DAI too.
 
 This fees are displayed in the transaction summary for each transaction to be performed in Deunifi App. 
 

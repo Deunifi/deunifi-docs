@@ -45,14 +45,6 @@ It is possible to see above that:
 
 This inconsistencies are caused mainly because prices between protocols are not in sync in the Kovan network.
 
-### Flash Loan Limit
-
-Due to incompatibilities between AAVE and MakerDAO in Kovan network, there exists a limit regarding flash loan amount.
-
-At the time of writing, this limit is around 500,000.00 DAI.
-
-So it is not possible in the Kovan network to generate debts greater than 500,000.00 DAI.
-
 ## Kovan Fauset Service
 
 Kovan Faucet Service let you get some ETH for free in the Kovan test network.

@@ -135,7 +135,7 @@ There are some key indicator to mention from the Transaction Summary section:
   * And the vault's APY estimation is 41% \(why? because we are improving the APY investing twice of our actual assets and taking a debt to achieve this\).
 * Flash Loan Fees:
   * The fees payed to get the flash loan to achieve this operation in only one transaction.
-  * At the time of writing the fees are 0.09% of the flash loan value.
+  * At the time of writing the fees are 0.05% of the flash loan value.
 * Deunifi Service Fee:
   * Fees for the development team to maintain and give support for the Deunifi App.
   * At the time of writing the fees are 0.1% of the draw DAI. 

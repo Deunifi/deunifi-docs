@@ -52,6 +52,18 @@ The liquidation ratio is a fixed value defined for each vault type, and is de mi
 If you want to understand in more detail how vaults works, please checkout the [Vault Onboarding Guide](https://community-development.makerdao.com/en/learn/vaults/vault-onboarding-guide) in the MakerDAO official documentation.
 {% endhint %}
 
+### Flash Loans
+
+Flash Loans is one of the functionalities offered by MakerDAO.
+
+The concept is really simple.
+
+Anyone can take a flash loan, in some specific token \(for example in DAI\), for any amount, during an Ethereum transaction execution.
+
+The requirement to take this kind of loan, is to payback the same amount to MakerDAO, plus the corresponding fees \(0.05% of the loan amount\), before the transaction is finished.
+
+If the loan amount + fees is not payed back, then the transaction is reverted.
+
 ## AAVE
 
 AAVE is a decentralized lending and borrowing protocol.
