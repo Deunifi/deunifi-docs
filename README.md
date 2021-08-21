@@ -4,11 +4,11 @@ Deunifi is a project in the Ethereum network that integrates the protocols Maker
 
 The idea here is to get the same results, only with one transaction, and with lower costs.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Deunifi does not offer its own assets, instead, any investment done with Deunifi works with UniswapV2 liquidity pool tokens that are locked in your own MakerDAO vaults to create a collateralized position.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 Additionally, as a security measure, Deunifi was designed to not be able to perform operations with your vaults and your tokens. This way, your investments are yours and only yours.
 {% endhint %}
 
