@@ -94,6 +94,12 @@ The tokens available to use in a transaction are:
 
 In the following sections we are going to show some examples to understand better how to do an investment.
 
+{% hint style="success" %}
+The examples below are out of date regarding the flash loan fees. Was made an update to the App that reduces all flash loan fees to only 0.000000000000000002 DAI \(no matter the amount requested in the flash loan\).
+
+Enjoy :\)
+{% endhint %}
+
 ### Using Only ETH
 
 In this example we are going to invest in a UNIV2DAIETH-A vault using only ETH.
