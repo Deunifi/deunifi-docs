@@ -16,11 +16,11 @@ To perform any transaction in Deunifi, it is used the MakerDAO proxy associated 
 
 If you already own a proxy in MakerDAO you can skip this section.
 
-{% hint style="info" %}
+{% hint style="success" %}
 If you own a proxy in MakerDAO, then the Deunifi App it is going to automatically recognize your proxy, and the 'CREATE PROXY' button will disappear.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 The proxy creation it is done only once. Once created, it is used that proxy for all the transactions done in Deunifi App. 
 {% endhint %}
 
@@ -50,7 +50,7 @@ The vault to be created depends on the kind of investment you want to have.
 Checkout our [Vault Classification](core-concepts/vault-classification.md) section to understand better the different kinds of vaults.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 If you already own a MakerDAO vault supported by the Deunifi App, you can skip this section.
 {% endhint %}
 
@@ -70,7 +70,7 @@ A link to checkout your recent created vault in Oasis App \(MakerDAO\), is going
 
 ![](.gitbook/assets/image%20%2812%29.png)
 
-{% hint style="info" %}
+{% hint style="success" %}
 Please note that you can create more than one vault for same vault type in case you need it.
 {% endhint %}
 
@@ -93,6 +93,12 @@ The tokens available to use in a transaction are:
 * DAI token.
 
 In the following sections we are going to show some examples to understand better how to do an investment.
+
+{% hint style="success" %}
+The examples below are out of date regarding the flash loan fees, because was made an update to the App that reduces all flash loan fees to only 0.000000000000000002 DAI \(no matter the amount requested in the flash loan\).
+
+Enjoy :\)
+{% endhint %}
 
 ### Using Only ETH
 
