@@ -4,7 +4,7 @@ It is possible possible to test how Deunifi works without using real ETH or real
 
 This can be achieved [connecting to the Kovan network](test-network.md#connecting-to-kovan) instead of the Mainnet network.
 
-Please, be advice that there are some [limitations](test-network.md#limitations) regarding using Deunifi in the Kovan Test Network.
+Please, be advice that there are some [limitations](test-network.md#limitations) regarding using Deunifi in the Kovan Network.
 
 To get some ETH you can use the [Kovan Fauset Service](test-network.md#kovan-fauset-service).
 

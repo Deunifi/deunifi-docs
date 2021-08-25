@@ -64,23 +64,19 @@ The requirement to take this kind of loan, is to payback the same amount to Make
 
 If the loan amount + fees is not payed back, then the transaction is reverted.
 
-## AAVE
+## dYdX
 
-AAVE is a decentralized lending and borrowing protocol.
+A leading non-custodial decentralized exchange on a mission to build open, secure, and powerful financial products. dYdX runs on audited smart contracts on Ethereum, which eliminates the need to trust a central exchange while trading. The exchange combines the security and transparency of a decentralized exchange, with the speed and usability of a centralized exchange.
 
 ### Flash Loans
 
-Flash Loans is one of the functionalities offered by AAVE.
+Flash Loans is one of the functionalities offered by dYdX.
 
 The concept is really simple.
 
 Anyone can take a flash loan, in some specific token \(for example in DAI\), for any amount, during an Ethereum transaction execution.
 
-The requirement to take this kind of loan, is to payback the same amount to AAVE, plus the corresponding fees \(0.09% of the loan amount\), before the transaction is finished.
+The requirement to take this kind of loan, is to payback the same amount to dYdX, plus the corresponding fees \(0.000000000000000002 DAI\), before the transaction is finished.
 
 If the loan amount + fees is not payed back, then the transaction is reverted.
-
-{% hint style="info" %}
-If you want to understand in more detail how flash loans work, please checkout the [Flash Loans](https://docs.aave.com/faq/flash-loans) section in the AAVE official documentation.
-{% endhint %}
 
